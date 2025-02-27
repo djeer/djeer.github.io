@@ -4,8 +4,6 @@ title: CV
 permalink: /cv/
 ---
 
-# Curriculum Vitae
-
 Software Engineer specializing in AI, Cloud Infrastructure, and Fintech
 
 ## Skills Summary
