@@ -10,4 +10,4 @@ I'm a software engineer with extensive experience in AI, Cloud Infrastructure, a
 
 telegram: djeer
 
-email: [diman.krd@gmail.com](mailto:diman.krd@gmail.com)
+email: [hey@thalassa.dev](mailto:hey@thalassa.dev)
