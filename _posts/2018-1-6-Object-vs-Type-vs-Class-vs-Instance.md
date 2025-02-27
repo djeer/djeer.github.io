@@ -3,15 +3,15 @@ layout: post
 title: Object vs Type vs Class vs Instance
 ---
 
-Описание связи между объектом, типом, классом и экземпляром в Python.
+Description of the relationship between objects, types, classes, and instances in Python.
 
-## Объекты
+## Objects
 
-Объекты - способ представления любых сущностей в Python. Все данные в Python представлены объектами и связями объектов. 
-У каждого объекта есть идентификатор, тип и значение. Идентификатор (identity) никогда не меняется с момента создания объекта. 
-Оператор `is` сравнивает идентификтаторы двух объектов; функция `id()` возвращает целочисленный идентификатор объекта.
+Objects are a way of representing any entities in Python. All data in Python is represented by objects and relationships between objects.
+Each object has an identity, type, and value. The identity never changes from the moment the object is created.
+The `is` operator compares the identities of two objects; the `id()` function returns the integer identifier of an object.
 
-*Для CPython, id(x) - адрес памяти, где хранится x.*
+*For CPython, id(x) is the memory address where x is stored.*
 
 ```
 >>> a = 127
@@ -24,7 +24,7 @@ title: Object vs Type vs Class vs Instance
 False
 ```
 
-В Python все - объект. Списки - это объекты. Строки, модули, функции - это объекты. Байткод программы хранится как объект. У всех объектов есть типы и идентификаторы:
+In Python, everything is an object. Lists are objects. Strings, modules, and functions are objects. The bytecode of a program is stored as an object. All objects have types and identities:
 
 ```
 >>> def dummy(): pass
@@ -36,10 +36,10 @@ False
 >>>
 ```
 
-Модель "все - объект" прослеживается и в самой реализации CPython. В коде CPyton к любой сущности, упомянутой выше, можно обратиться через указатель на стркутуру PyObject.
+The "everything is an object" model is followed in the CPython implementation. In the CPython code, any entity mentioned above can be accessed through a pointer to the PyObject structure.
 
-## Типы
-У каждого объекта Python есть тип. Тип можно выяснить, вызвав "встроенную функцию" `type()`. Тип - это тоже объект, поэтому у него есть собственный тип, который называется `type`. Этот факт не слишком полезен для написания простого кода на Python, однако, он важен для понимания внутренностей CPython:
+## Types
+Every object in Python has a type. You can find out the type of an object by calling the built-in function `type()`. The type is also an object, so it has its own type, which is called `type`. This fact is not very useful for writing simple Python code, but it is important for understanding the internals of CPython:
 
 ```
 >>> type(42)
@@ -49,10 +49,10 @@ False
 >>> type(type(type(42)))
 <class 'type'>
 ```
-Все типы сходятся к type.
+All types converge to type.
 
-## Классы
-Давным-давно была разница между встроенными классами и пользовательскими классами, но с версии 2.2 (классы "нового стиля", унаследованные от object в 2.x, и все классы в 3.x) значимых отличий нет. В сущности, класс это механизм Python, который позволяет создавать пользовательские типы в коде Python.
+## Classes
+Long ago, there was a difference between built-in classes and user-defined classes, but with version 2.2 (new-style classes in 2.x and all classes in 3.x), there are no significant differences. In essence, a class is a mechanism in Python that allows you to create custom types in Python code.
 ```
 >>> class Snake: pass
 ...
@@ -61,85 +61,85 @@ False
 <class '__main__.Snake'>
 >>>
 ```
-Используя этот механизм, мы создали Snake - пользовательский тип. s - экземпляр класса Snake. Или, другими словами, s - это объект, и его тип - Snake. Термины "class" и "type" оба ссылаются на одну концепцию.
+Using this mechanism, we created Snake, a user-defined type. s is an instance of the Snake class. Or, in other words, s is an object, and its type is Snake. The terms "class" and "type" both refer to the same concept.
 
-## Экземпляры (instance)
-В отличие от неоднозначности терминов "класс" и "тип", экземпляр - это синоним термина "объект".
-Еще раз: объекты - это экземпляры типов. Так, "42 это экземпляр типа int" равносильно "42 - объект int". 
-Термин "экземпляр" используется во встроенной функции `isinstance()`.
+## Instances (instance)
+Unlike the ambiguity of the terms "class" and "type", "instance" is synonymous with the term "object".
+Again: objects are instances of types. So, "42 is an instance of the int type" is equivalent to "42 is an int object".
+The term "instance" is used in the built-in function `isinstance()`.
 
-В Python все - объект, поэтому любой пользовательский класс - это тоже объект, и его тип *обычно* "type". 
-Повторим еще раз: все пользовательские типы *обычно* являются экземплярами класса type. 
+In Python, everything is an object, so any user-defined class is also an object, and its type *usually* is "type".
+Again: all user-defined types *usually* are instances of the type class.
 
-На примере класса Snake:
+For example, the Snake class:
 ```
 >>> type(Snake)
 <class 'type'>
 ```
 
-Введем новый термин: Метакласс - это специальный класс, конструктор которого возвращает класс. То есть, связь метакласс->класс аналогична связи класс->объект. Тот факт, что классы являются экземплярами класса "type", позволяет нам создавать свои метаклассы (классы, которые наследуются от класса "type" и конструктор которых возвращает класс). 
+We introduce a new term: Metaclass - this is a special class whose constructor returns a class. That is, the relationship metaclass->class is analogous to the relationship class->object. The fact that classes are instances of the "type" class allows us to create our own metaclasses (classes that inherit from the "type" class and whose constructor returns a class).
 
 ```
->>> class TestMeta(type): pass  # создаем простейший метакласс
+>>> class TestMeta(type): pass  # create the simplest metaclass
 ...
->>> MyClass = TestMeta("myclass",tuple(),{})  # создаем экземпляр метакласса
+>>> MyClass = TestMeta("myclass",tuple(),{})  # create a metaclass instance
 >>> MyClass
 <class '__main__.myclass'>
->>> type(MyClass)  # получили пользовательский класс c типом, отличным от type
+>>> type(MyClass)  # got a user-defined class with a type different from type
 <class '__main__.TestMeta'>
 >>> type(type(MyClass))
 <class 'type'>
 ```
 
-Зачем? Как правило, метаклассы используют при написании сложных фреймворков уровня Django ORM, они позволяют вынести часть внутренней магии выше пользовательского кода, чтобы "пользователь" не вдавался в подробности реализации. Как метко заметил гуру питона Тим Питерс, *Если вы сомневаетесь, надо ли вам их использовать — не надо.*
+Why? Typically, metaclasses are used when writing complex frameworks at the level of Django ORM, they allow you to move part of the internal magic above the user code, so that "user" does not delve into the implementation details. As the guru of Python, Tim Peters, said, *If you're unsure whether you need them - you don't.*
 
-## Итог
-Напрашивается наивный вопрос: так что же главнее - type или object?
+## Conclusion
+The naive question arises: so what's more important - type or object?
 ```
 >>> type.__bases__
 (<class 'object'>,)
 >>> object.__bases__
 ()
 ```
-type наследуется от object, но при этом же:
+type inherits from object, but also:
 ```
 >>> type(object)
 <class 'type'>
 ```
-object имеет тип type. По сути, object - корень иерархии объектов, а type - корень иерархии типов. Каждый тип это объект, а у каждого объекта есть тип, этим и вызвана такая двойственность их определений. Среди них нет первоисточника, это единственное подобное исключение, заложенное в основу языка.
+object has type type. In essence, object is the root of the object hierarchy, and type is the root of the type hierarchy. Each type is an object, and each object has a type, which is why there is such duality in their definitions. There is no original source among them; this is the only similar exception built into the language.
 
-Рассмотрим на примере стандартных классов. Класс bool наследуется от класса int. На картинке наследование объектов показано зеленым, наследование типов - красным.
+Consider the standard classes. The bool class inherits from the int class. On the diagram, object inheritance is shown in green, type inheritance is shown in red.
 
 
 ![_config.yml]({{ site.baseurl }}/images/Diagram1.png)
 
 
-И добавим сюда классы из примеров выше:
+And add the classes from the examples above:
 
 
 ![_config.yml]({{ site.baseurl }}/images/Diagram2.png)
 
 
-Таким образом, метаклассы позволяют реализовать иерархию типов, подобную наследованию объектов. Практический смысл метаклассов - при создании класса мы можем выполнить произвольный код, который модифицирует создаваемый класс, без необходимости вносить изменения в сам класс *(но в 99% случаев подобное лучше делать через декораторы классов/наследование)*.
+Thus, metaclasses allow you to implement a type hierarchy similar to object inheritance. The practical significance of metaclasses is that when creating a class, we can execute arbitrary code that modifies the created class without having to make changes to the class itself *(but in 99% of cases, such a thing is better done through class decorators/inheritance)*.
 
 
-## Примечание
-Следует отличать встроенную функцию `isinstance()` и оператор `is`:
+## Note
+It is important to distinguish between the built-in function `isinstance()` and the operator `is`:
 
-`isinstance(object, class)` возвращает True, если `object` является экземпляром `class`, либо экземпляром класса, унаследованного от `class`.
+`isinstance(object, class)` returns True if `object` is an instance of `class`, or an instance of a class inherited from `class`.
 
-Оператор `is`, в свою очередь, возвращает True, если две переменные ссылаются на один объект, т.е. сверяет идентификаторы объектов.
+The operator `is`, in turn, returns True if two variables refer to the same object, i.e., it compares the identities of objects.
 
-## Динамическое создание классов через type()
-Вместо вызова с одиним аргументом, `type()` можно вызвать с тремя:
+## Dynamic Class Creation via type()
+Instead of calling with one argument, `type()` can be called with three:
 
 `type(classname, superclasses, attributes_dict)`
 
-Если `type` вызван с тремя аргументами, он вернет новый объект `type`. Это позволяет динамически формировать классы (как это сделано в примере с метаклассом):
+If `type` is called with three arguments, it will return a new object `type`. This allows you to dynamically form classes (as done in the metaclass example):
 
-* "classname" - строка, которая определяет имя класса и становится его атрибутом `__name__`;
-* "superclasses" - это кортеж родительских классов, становится атрибутом `__bases__`;
-* "attributes_dict" - это словарь, представляющий пространство имен нашего класса. Он содержит определенние тела класса и становится его атрибутом `__dict__`. Атрибутами класса могут быть любые объекты:
+* "classname" - a string that defines the name of the class and becomes its attribute `__name__`;
+* "superclasses" - a tuple of parent classes, which becomes the attribute `__bases__`;
+* "attributes_dict" - a dictionary representing the namespace of our class. It contains the definition of the class body and becomes its attribute `__dict__`. The attributes of a class can be any objects:
 
 ```
 >>> m = type("mytype", (int,), {"test": "field", "greet": lambda: print("hello word")})
@@ -149,7 +149,7 @@ object имеет тип type. По сути, object - корень иерарх
 hello word
 ```
 
-Иногда type() называют встроенной функцией, но надо понимать, что type(1), хоть и выглядит как print(1), на самом деле является вызовом констркутора типа type с одиним аргументом. Вызов конструктора с одним аргументом возвращает тип переданного объекта, с тремя - создает новый тип. Вот так выглядит сигнатура `type.__init__()`:
+Sometimes type() is called a built-in function, but you need to understand that type(1), although it looks like print(1), is actually a call to the type constructor with one argument. Calling the constructor with one argument returns the type of the passed object, with three - creates a new type. Here is the signature of `type.__init__()`:
 ```
 def __init__(cls, what, bases=None, dict=None):
         """
@@ -160,4 +160,3 @@ def __init__(cls, what, bases=None, dict=None):
         ...
 ```
 
-P.S. еще одна неплохая статья про метаклассы https://habrahabr.ru/post/145835/
