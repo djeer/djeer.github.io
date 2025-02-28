@@ -57,7 +57,7 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 - Extended internal framework for code generation from Python into timeseries database query graphs
 - Created custom tooling for in-house timeseries database, improving team efficiency
 
-### Fintech Company
+### [IBITCY](https://ibitcy.com)
 **Senior Software Engineer**  
 *Jun 2019 - Jul 2020 (1y 1m)*  
 *Python, AngularJS, JavaScript, Node.js, C++*
