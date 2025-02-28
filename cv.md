@@ -41,7 +41,8 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 
 ### [Finchtrade](https://finchtrade.com/)
 **Software Engineer in Fintech**  
-*Jun 2018 - Nov 2021 (3y 5m)*  
+*Jun 2018 - Jun 2019* and *Jul 2020 - Nov 2021* (2y 4m)
+
 *Golang, SQL, Python, Grafana*
 
 - Built scalable multi-exchange market making system MVP from scratch in under 3 months, enabling us to secure a major client
