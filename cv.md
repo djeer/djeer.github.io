@@ -13,14 +13,12 @@ permalink: /
 
 ## Professional Summary
 
-I'm a passionate software engineer with background in start-ups and fintech companies.
-
-I have experience being a technical leader, with deep expertise in the following areas:
+I'm a product-oriented software engineer with experience in start-ups and fintech companies.  I've had the opportunity to contribute in technical leadership roles, focusing on:
 
 - scaling up from MVP stage to mature products
 - optimizing IOPS and latency in a trading systems
 - implementing CI/CD practices and E2E tests culture
-- managing a team, planning a work, hiring
+- planning and hiring processes
 
 ## Professional Experience
 
