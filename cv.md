@@ -24,16 +24,16 @@ I have experience being a technical leader, with deep expertise in the following
 
 ## Professional Experience
 
-### Software Engineer, Co-Founder
-**SerenityGPT**  
+### SerenityGPT
+**Software Engineer, Co-Founder**  
 *Apr 2023 - Jan 2025 (1y 9m)*  
 *Artificial Intelligence, Golang, Docker, JavaScript, Python, Terraform*
 
 - Developed and demoed MVP for enterprise search with Generative AI (local/hybrid cloud), securing paid customer trials
 - Managed frontend and backend teams to deliver new features and integrations after successful customer onboarding
 
-### Founding Engineer
-**Cordless**  
+### Cordless
+**Founding Engineer**  
 *Oct 2021 - Sep 2024 (2y 11m)*  
 *Artificial Intelligence, Golang, Terraform, GCP, Python, GraphQL*
 
@@ -41,59 +41,59 @@ I have experience being a technical leader, with deep expertise in the following
 - Implemented AI features (auto-tagging, summaries, clustering) that drove customer satisfaction to 4.6/5 on G2 Reviews
 - Established CI/CD infrastructure with comprehensive testing, enabling immediate production deployment via Terraform
 
-### Software Engineer in Fintech
-**Finery Markets**  
+### Finery Markets
+**Software Engineer in Fintech**  
 *Jun 2018 - Nov 2021 (3y 5m)*  
-*Fintech, Golang, SQL, Python, Grafana*
+*Golang, SQL, Python, Grafana*
 
 - Built scalable multi-exchange market making system MVP from scratch in under 3 months, enabling us to secure a major client
 - Developed trading platform back-office, P&L calculation, monitoring, and equity re-balance systems for 24/7 operations
 - Created trading robots control panel for on-the-fly adjustments, managing frontend contractors during development
 
-### Market Surveillance Solutions Engineer
-**Big Data Solutions**  
+### Big Data Solutions
+**Market Surveillance Solutions Engineer**  
 *Aug 2020 - Jul 2021 (11m)*  
-*Fintech, Python, C++, Pandas*
+*Python, C++, Pandas*
 
 - Developed market abuse monitoring algorithms for major clients, including one of the largest US exchanges
 - Extended internal framework for code generation from Python into timeseries database query graphs
 - Created custom tooling for in-house timeseries database, improving team efficiency
 
-### Senior Software Engineer
-**Fintech Company**  
+### Fintech Company
+**Senior Software Engineer**  
 *Jun 2019 - Jul 2020 (1y 1m)*  
-*Fintech, Python, AngularJS, JavaScript, Node.js, C++*
+*Python, AngularJS, JavaScript, Node.js, C++*
 
 - Developed high-load backend systems supporting tens of thousands of online users
 - Specialized in extending and scaling legacy systems, including C++ projects
 
-### Co-founder
-**Scrutiny Startup**  
+### Scrutiny Startup
+**Co-founder**  
 *Jan 2018 - Jul 2018 (6m)*  
-*Fintech, Python, CUDA*
+*Python, CUDA*
 
 - Co-founded and led an HFT startup focused on cryptocurrency cross-exchange arbitrage
 - Developed algorithms analyzing market data from seven exchanges to identify multi-step arbitrage routes
 - Created calculation core using Python, Golang, and Elasticsearch for trading operations
 
-### Lead Backend Developer
-**Safe Communications**  
+### Safe Communications
+**Lead Backend Developer**  
 *Dec 2016 - Feb 2018 (1y 2m)*  
 *Telecommunications, Python, Postgres, Golang*
 
 - Developed IoT Management Platform for B2C and B2B sectors (GPS trackers, iOS MDM, mobile apps)
 - Started on MVP stage, led a team of three backend engineers on later stages
 
-### Billing Engineer & Analyst
-**MTS Group**  
+### MTS Group
+**Billing Engineer & Analyst**  
 *Jan 2016 - Dec 2016 (11m)*  
 *Telecommunications, Python, Oracle*
 
 - Managed API integrations with third-party systems including payment providers
 - Conducted weekly CCI data analysis using Python and Oracle PL/SQL
 
-### Sysadmin
-**Geology Research Company**  
+### Geology Research Company
+**Sysadmin**  
 *Aug 2010 - Jan 2016 (5y 5m)*
 
 - Supported legacy software and managed Active Directory domain with zero incidents
