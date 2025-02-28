@@ -13,7 +13,7 @@ permalink: /
 
 ## Professional Summary
 
-I'm a product-oriented software engineer with experience in start-ups and fintech companies.  I've had the opportunity to contribute in technical leadership roles, focusing on:
+As a product-oriented software engineer, I've had the opportunity to contribute in technical leadership roles, focusing on:
 
 - scaling up from MVP stage to mature products
 - optimizing IOPS and latency in a trading systems
