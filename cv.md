@@ -24,7 +24,7 @@ I have experience being a technical leader, with deep expertise in the following
 
 ## Professional Experience
 
-### SerenityGPT
+### [SerenityGPT](https://serenitygpt.com/)
 **Software Engineer, Co-Founder**  
 *Apr 2023 - Jan 2025 (1y 9m)*  
 *Artificial Intelligence, Golang, Docker, JavaScript, Python, Terraform*
@@ -32,7 +32,7 @@ I have experience being a technical leader, with deep expertise in the following
 - Developed and demoed MVP for enterprise search with Generative AI (local/hybrid cloud), securing paid customer trials
 - Managed frontend and backend teams to deliver new features and integrations after successful customer onboarding
 
-### Cordless
+### [Cordless](https://uk.linkedin.com/company/cordless)
 **Founding Engineer**  
 *Oct 2021 - Sep 2024 (2y 11m)*  
 *Artificial Intelligence, Golang, Terraform, GCP, Python, GraphQL*
@@ -41,7 +41,7 @@ I have experience being a technical leader, with deep expertise in the following
 - Implemented AI features (auto-tagging, summaries, clustering) that drove customer satisfaction to 4.6/5 on G2 Reviews
 - Established CI/CD infrastructure with comprehensive testing, enabling immediate production deployment via Terraform
 
-### Finery Markets
+### [Finchtrade](https://finchtrade.com/)
 **Software Engineer in Fintech**  
 *Jun 2018 - Nov 2021 (3y 5m)*  
 *Golang, SQL, Python, Grafana*
@@ -50,7 +50,7 @@ I have experience being a technical leader, with deep expertise in the following
 - Developed trading platform back-office, P&L calculation, monitoring, and equity re-balance systems for 24/7 operations
 - Created trading robots control panel for on-the-fly adjustments, managing frontend contractors during development
 
-### Big Data Solutions
+### [OneMarketData](https://www.onetick.com/)
 **Market Surveillance Solutions Engineer**  
 *Aug 2020 - Jul 2021 (11m)*  
 *Python, C++, Pandas*
@@ -84,7 +84,7 @@ I have experience being a technical leader, with deep expertise in the following
 - Developed IoT Management Platform for B2C and B2B sectors (GPS trackers, iOS MDM, mobile apps)
 - Started on MVP stage, led a team of three backend engineers on later stages
 
-### MTS Group
+### [MTS Group](https://mts-digital.ru/)
 **Billing Engineer & Analyst**  
 *Jan 2016 - Dec 2016 (11m)*  
 *Telecommunications, Python, Oracle*
@@ -92,7 +92,7 @@ I have experience being a technical leader, with deep expertise in the following
 - Managed API integrations with third-party systems including payment providers
 - Conducted weekly CCI data analysis using Python and Oracle PL/SQL
 
-### Geology Research Company
+### [Geology Research Company](https://izyskatel23.ru/)
 **Sysadmin**  
 *Aug 2010 - Jan 2016 (5y 5m)*
 
