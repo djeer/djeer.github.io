@@ -1,7 +1,6 @@
 ---
-title: "Wash Trade in Cryptomarkets — A Case of BW Exchange"
-excerpt: "An analysis of suspicious trading patterns on BW Exchange suggesting wash trading activity"
-date: "2023-26-02T00:00:00.000Z"
+layout: post
+title: Wash Trade in Cryptomarkets — A Case of BW Exchange
 ---
 
 Wash trade in cryptomarkets — a case of BW exchange
