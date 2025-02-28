@@ -37,19 +37,19 @@ We divide our research into 5 parts. Each of the parts focuses on different aspe
 
 Delays in ms between the consecutive trades (selected symbols; first 10 ms are excluded; one bar is 1 ms; data from 25-Mar-2018 till 23-Jul-2018) show some anomalies around 125, 200, 400 and 1000 ms. May it be the case that either human beings or trading bots used to make trades (it’s not about placing an order, which a bot may do with a regular interval!) so punctually and orderly? We doubt so.
 
-![](images/blog/binance-Gnuwe_UzW65_RRu2.png)
+![]({{ site.baseurl }}/images/blog/binance-Gnuwe_UzW65_RRu2.png)
 
 ADA/USDT on Binance
 
 1.1 Here one can see an unexplainable high number of trades that are made every ~125 ms, 400ms, 1000 ms (i.e. 1 sec).
 
-![](images/blog/binance-QEffAKUE0IYNISDU.png)
+![]({{ site.baseurl }}/images/blog/binance-QEffAKUE0IYNISDU.png)
 
 BNB/USDT on Binance
 
 1.2 Here one can see an unexplainable high number of trades that are made every ~125 ms, 200ms, less distinctive 400 ms, and highly distinctive 1000 ms (i.e. 1 sec).
 
-![](images/blog/binance-gqeutoYS5B1UP-2K.png)
+![]({{ site.baseurl }}/images/blog/binance-gqeutoYS5B1UP-2K.png)
 
 XLM/BTC on Binance
 
@@ -62,49 +62,49 @@ Here we have drawn some charts showing delays in ms versus the number of trades 
 
 2.1 This symbol seems to be organic.
 
-![](images/blog/binance-mAweVPLsjtzPMMTm.png)
+![]({{ site.baseurl }}/images/blog/binance-mAweVPLsjtzPMMTm.png)
 
 ETH/BTC on Binance
 
 2.2 This currency pair would also seem organic if there were no distinctive groups of trades made every second.
 
-![](images/blog/binance-uylUcHiNj3NKmKdb.png)
+![]({{ site.baseurl }}/images/blog/binance-uylUcHiNj3NKmKdb.png)
 
 EOS/BTC on Binance
 
-![](images/blog/binance-KAuO1HNPiqt4eDd8.png)
+![]({{ site.baseurl }}/images/blog/binance-KAuO1HNPiqt4eDd8.png)
 
 EOS/BTC on Binance
 
 2.2 This currency pair does not seem organic for two reasons: (1) there are two distinct groups of trades made every 400 and 1000 ms; (2) the dominance of trade sizes, which can be explained neither by min lot size, nor by min lot step, nor by favourite sizes of retail investors (such as 1, 0.5, 0.1, 0.01 etc.)
 
-![](images/blog/binance-iOue44qFI75t69xU.png)
+![]({{ site.baseurl }}/images/blog/binance-iOue44qFI75t69xU.png)
 
 BCH/BTC on Binance
 
-![](images/blog/binance-h3uAC2YI3Td0jKhi.png)
+![]({{ site.baseurl }}/images/blog/binance-h3uAC2YI3Td0jKhi.png)
 
 BCH/BTC on Binance
 
 2.3 STEEM/BTC & VIA/BTC — These two symbols have the similar profile as if someone made a lot of small trades (as the bimodal distribution of trade amounts shows) quite often to produce the appearance of liquidity (with the delay of less than 100–150 ms).
 
-![](images/blog/binance-FAbvcCo448SCFcqE.png)
+![]({{ site.baseurl }}/images/blog/binance-FAbvcCo448SCFcqE.png)
 
 STEEM/BTC on Binance
 
-![](images/blog/binance-mJJ3JPVmela7Y202.png)
+![]({{ site.baseurl }}/images/blog/binance-mJJ3JPVmela7Y202.png)
 
 VIA/BTC on Binance
 
 2.4 ENG/BTC symbol has quite an unusual pattern of delays between the trades: someone makes trades of random volume every 10–20 ms — these trades make up the majority of overall volumes.
 
-![](images/blog/binance-k-t-EmDF5UUlpEhx.png)
+![]({{ site.baseurl }}/images/blog/binance-k-t-EmDF5UUlpEhx.png)
 
 ENG/BTC on Binance
 
 The further research of ENG/BTC shows that these trades are made smoothly round the clock (see the chart below: _Y-axis_ is time during 24 hours, _X-axis_ is the delay between the trades). One of the possible explanations is the trading bots involved in wash-trade.
 
-![](images/blog/binance-JIgyaoqcoaVPMtIX.png)
+![]({{ site.baseurl }}/images/blog/binance-JIgyaoqcoaVPMtIX.png)
 
 ENG/BTC on Binance
 
@@ -124,19 +124,19 @@ The following figures show the average daily delay between consecutive trades (i
 
 4.1 ETC/BTC: the flow seems to be organic.
 
-![](images/blog/binance-Zahvb_2Vr_V25y6y.png)
+![]({{ site.baseurl }}/images/blog/binance-Zahvb_2Vr_V25y6y.png)
 
 ETC/BTC on Binance
 
 4.2 VIA/BTC: the permanent delays in April-May do not seem so organic.
 
-![](images/blog/binance-RwKJv6DY_Rmi0ekE.png)
+![]({{ site.baseurl }}/images/blog/binance-RwKJv6DY_Rmi0ekE.png)
 
 VIA/BTC on Binance
 
 4.3 ETH/BTC: one can see three periods — the delays were more or less constant around 300 ms, then around 250 ms, then around 400 ms.
 
-![](images/blog/binance-r-ovxZZ36ueCGLCr.png)
+![]({{ site.baseurl }}/images/blog/binance-r-ovxZZ36ueCGLCr.png)
 
 ETH/BTC on Binance
 
@@ -149,21 +149,21 @@ Although there are some examples of suspicious behaviour in Binance, the hypothe
 
 5.1 BNB/USD: the flow seems to be organic.
 
-![](images/blog/binance-hX5ZWs0jJO5PICMJ.png)
+![]({{ site.baseurl }}/images/blog/binance-hX5ZWs0jJO5PICMJ.png)
 
-![](images/blog/binance-yVC5uMzJeZ6sUqVN.png)
+![]({{ site.baseurl }}/images/blog/binance-yVC5uMzJeZ6sUqVN.png)
 
 5.2 ADA/USDT: the buy or sell dominance is not obvious and sticks to 50%.
 
-![](images/blog/binance-TQsuqFJQd78lMSO9.png)
+![]({{ site.baseurl }}/images/blog/binance-TQsuqFJQd78lMSO9.png)
 
 5.3 BTC/USDT: the same pattern.
 
-![](images/blog/binance-m5pdcTBGL40pCmTp.png)
+![]({{ site.baseurl }}/images/blog/binance-m5pdcTBGL40pCmTp.png)
 
 5.4 ETH/USDT: the same pattern.
 
-![](images/blog/binance-923woGeKRkXXuJDr.png)
+![]({{ site.baseurl }}/images/blog/binance-923woGeKRkXXuJDr.png)
 
 Conclusion
 ==========

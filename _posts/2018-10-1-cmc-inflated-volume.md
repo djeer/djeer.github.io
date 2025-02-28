@@ -23,13 +23,13 @@ Market manipulation?
 
 Let’s have a look at BZ token. There are four symbols with BZ: 3 symbols where BZ is a base currency and 1 symbol where BZ is a quote currency. Total Volume (24h) is the sum of the volume of all four symbols (see the chart below).
 
-![](images/blog/cmc-volume-9LQ_Yff5CWdBp5zIOG7LFg.png)
+![]({{ site.baseurl }}/images/blog/cmc-volume-9LQ_Yff5CWdBp5zIOG7LFg.png)
 
 Chart 1. BZ markets include SS/BZ where BZ is a quote currency
 
 Let’s now have a look at SS token. It has 8 symbols where SS is always a base currency. The third by volume symbol is SS/BZ.
 
-![](images/blog/cmc-volume-PZ1CJRxYf3pmibxuesJ_uw.png)
+![]({{ site.baseurl }}/images/blog/cmc-volume-PZ1CJRxYf3pmibxuesJ_uw.png)
 
 Chart 2. SS markets with SS/BZ symbol (#3)
 
@@ -42,7 +42,7 @@ Tether
 
 CoinMarketCap website shows only top-400 by volume symbols. As of 25-Oct-2018, the total Volume (24h) was $1,830M. When we exclude all symbols where Tether is a price currency, we will get only either $54.7M or $4.6M if we follow the methodology of CoinMarketCap and exclude USDT/USD traded in Bitfinex (the alleged reason is that it is not available to the broad public).
 
-![](images/blog/cmc-volume-4V-8J99rg-bo1-MpfBJkrQ.png)
+![]({{ site.baseurl }}/images/blog/cmc-volume-4V-8J99rg-bo1-MpfBJkrQ.png)
 
 Table 1. The symbols where Tether is a base currency
 
@@ -72,7 +72,7 @@ The methodology is the central part of any endeavour related to accounting. When
 
 Based on our research, CoinMarketCap has **double counted 37%** of the reported daily volume, as of October, 25th. It means the **actual trading volume is inflated by 1.6 times** (the table below shows the calculations; the source is [here](https://docs.google.com/spreadsheets/d/1oZh4LaVBOXD6hb2LfWJ8DuO33YzDToKa6iA8pRq72fU)).
 
-![](images/blog/cmc-volume-NtqeEhL2p5oKMtku99BWvw.png)
+![]({{ site.baseurl }}/images/blog/cmc-volume-NtqeEhL2p5oKMtku99BWvw.png)
 
 Table 2. The summary of the double-counted volumes (it includes only BTC, ETH, and USDT)
 

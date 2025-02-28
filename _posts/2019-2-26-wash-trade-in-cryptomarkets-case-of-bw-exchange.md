@@ -7,7 +7,7 @@ The value of the 24h aggregated volume, which was calculated by CoinMarketCap (C
 
 One of the Top-10 exchanges, [BW](https://www.bw.com/), may serve as a notorious model of an exchange that misleads market participants about its trading volume. Our surveillance algorithm has detected systematic wash trading with the vast majority (up to 100% on some symbols) of trades occurring inside the spread. These trades happen at a midmarket price without having any impact on the order book.
 
-![](images/blog/wash-trade-MDJv_0AGwW_CwY4s5Y19WA.png)
+![]({{ site.baseurl }}/images/blog/wash-trade-MDJv_0AGwW_CwY4s5Y19WA.png)
 
 In this sample, all trades but one were executed at the midmarket price. It’s odd, isn’t?
 
@@ -40,7 +40,7 @@ There are several metrics that may help detect inflated volumes without analysin
 
 *   _the ratio of website visitors to 30-days trading volume_ ([SimilarWeb](https://www.similarweb.com/website/binance.com) provides free statistics of visitors while CMC publishes [30-days volume](https://coinmarketcap.com/rankings/exchanges/)). [CoinGecko](https://www.coingecko.com/en/exchanges?view=social) is a great resource where you can have Alexa rating as well as Twitter followers along with trading volume. Unfortunately, this metric (like many others) does not count for algorithmic volume, which comes directly via API.
 
-![](images/blog/wash-trade-d-lOsEeWiPzDfaKn_uvaXw.png)
+![]({{ site.baseurl }}/images/blog/wash-trade-d-lOsEeWiPzDfaKn_uvaXw.png)
 
 Alexa rating and Twitter followers along with trading volume — CoinGecko
 
@@ -69,7 +69,7 @@ The case of BW
 
 Our previous research has revealed some trading anomalies in Binance and HitBTC (you may want to read [Is this real? Fake Volumes on Hitbtc and Binance](https://medium.com/@drellie/is-this-real-fake-volumes-on-hitbtc-and-binance-c984279acb9f) and [All Quiet on the Binance Front](https://medium.com/@drellie/all-quiet-on-the-binance-front-da9fcee499c6)). Now the target is a cryptocurrency exchange called [BW.com](https://www.bw.com/), which has been recently among top-10 exchanges by trading volume according to CMC.
 
-![](images/blog/wash-trade-v4Ij0NXxGLTMMNniCJN2ng.png)
+![]({{ site.baseurl }}/images/blog/wash-trade-v4Ij0NXxGLTMMNniCJN2ng.png)
 
 Most of the volumes on BW are of top-5 symbols, 22-Feb-2019— CoinMarketCap
 
@@ -80,39 +80,39 @@ The research paper [Quantifying fake volumes on cryptocurrency exchanges](https:
 *   an exchange reports trades that do not correspond to actual orders at all;
 *   an exchange (or another market participant) places a limit order and consequently hits it to produce volume (it may be done from a single account or several controlled accounts).
 
-![](images/blog/wash-trade-d_KWoXUWJxC8GVAOzKrIJA.png)
+![]({{ site.baseurl }}/images/blog/wash-trade-d_KWoXUWJxC8GVAOzKrIJA.png)
 
 Trades must relate to the order book — by Eitan Galam
 
 Now let’s revert to the trading activity observable on BW. The vast majority of trades occurs inside the spread, namely at a midmarket price. To make the matter worse, the genius behind this activity does not bother to place limit orders, i.e. we have detected the Type I of wash trading (with some exceptions). Below are the figures showing the pattern for two most liquid symbols BTC/USDT and ETH/USDT.
 
-![](images/blog/wash-trade-1VAC4WzbjQKQaRvdoJk4Nw.png)
+![]({{ site.baseurl }}/images/blog/wash-trade-1VAC4WzbjQKQaRvdoJk4Nw.png)
 
 Most of the trades do not correspond to the limit orders (bid and ask)
 
-![](images/blog/wash-trade-2XNJIXbtzGRGKmcMxRCZYw.png)
+![]({{ site.baseurl }}/images/blog/wash-trade-2XNJIXbtzGRGKmcMxRCZYw.png)
 
 Artificial volume is clearly produced at the midmarket price
 
 The less liquid symbols show the same pattern — EOS/BTC, BSV/BTC. The price is presumably calculated as per the formula: _Trade price = (bid + ask)/2 + (ask - bid)\* random{-0.05,0.05})._
 
-![](images/blog/wash-trade-l28K73Pphl50VTwh4Zaucw.png)
+![]({{ site.baseurl }}/images/blog/wash-trade-l28K73Pphl50VTwh4Zaucw.png)
 
 EOS/BTC trade prices distribution on BW exchange looks artificially generated
 
-![](images/blog/wash-trade-0AcnkH45TepJe5fIpoTQmQ.png)
+![]({{ site.baseurl }}/images/blog/wash-trade-0AcnkH45TepJe5fIpoTQmQ.png)
 
-![](images/blog/wash-trade-9mrzZVya2Sgvd9Wt3yYldw.png)
+![]({{ site.baseurl }}/images/blog/wash-trade-9mrzZVya2Sgvd9Wt3yYldw.png)
 
 The rough estimation of the artificial volume share is made according to a simple algorithm. First, we calculate the number of trades and the volume of trades (in base currency) that happened within the spread. Second, we calculate the ratio of in-spread trades to the overall trades.
 
-![](images/blog/wash-trade-uKlkMAW2VPboCNBm9YDEOQ.png)
+![]({{ site.baseurl }}/images/blog/wash-trade-uKlkMAW2VPboCNBm9YDEOQ.png)
 
 The share of in-spread trades on BW exchange — 15:30–23:59 UTC, 22-Feb-2019
 
 As it was mentioned above, there are some exceptions from the general rule of producing fake trades in the middle of the spread. The next figure shows a case when a lot of trades happened at bid prices. No market impact was observable, though. Such behaviour may be explained by the activity of a wash trading bot.
 
-![](images/blog/wash-trade-IIRd5_ggpj-AJhMK_Mzwgg.png)
+![]({{ site.baseurl }}/images/blog/wash-trade-IIRd5_ggpj-AJhMK_Mzwgg.png)
 
 Beside in-spread trades, a wash trading bot made trades at a bid price
 
@@ -123,29 +123,29 @@ Further analysis of trading data shows anomalies detected by the following two m
 
 **The interval between trades**. As we know from our [previous research](https://medium.com/@drellie/all-quiet-on-the-binance-front-da9fcee499c6), the most popular interval between the trades is usually 0. It corresponds to common sense because it’s common when a hitting order leads to the execution of multiple resting orders. The BW reports the time stamp only with second precision. The distribution is shown below and looks more or less all right. However, if we create a histogram using the time when a trade was received to our server, the picture will be much different. The distribution is two-modal with both modes being positive (around 36 and 42 ms). It is noteworthy that the distributions of BUY and SELL trades are almost identical, which is theoretically possible but not probable.
 
-![](images/blog/wash-trade-joAKS2ebnf0IdersWFQ6IQ.png)
+![]({{ site.baseurl }}/images/blog/wash-trade-joAKS2ebnf0IdersWFQ6IQ.png)
 
 BTC/USDT trades interval distribution — exchange time, seconds
 
-![](images/blog/wash-trade-Zh_3W6cZ3MRY8OOxIKeUqQ.png)
+![]({{ site.baseurl }}/images/blog/wash-trade-Zh_3W6cZ3MRY8OOxIKeUqQ.png)
 
 BTC/USDT trade interval distribution (1 bar is 10 ms) — our server time, μs
 
-![](images/blog/wash-trade-eFqyGib4b2eoOZ9WaXMlbg.png)
+![]({{ site.baseurl }}/images/blog/wash-trade-eFqyGib4b2eoOZ9WaXMlbg.png)
 
 BTC/USDT trade interval distribution (1 bar is 1 ms) — our server time, μs
 
-![](images/blog/wash-trade-H8PoIbPhdl1Em_w7U6630A.png)
+![]({{ site.baseurl }}/images/blog/wash-trade-H8PoIbPhdl1Em_w7U6630A.png)
 
 BTC/USDT BUY trade interval distribution (1 bar is 1 ms) — our server time, μs
 
-![](images/blog/wash-trade-46m6TAuiWVSwUJRiCBN-OA.png)
+![]({{ site.baseurl }}/images/blog/wash-trade-46m6TAuiWVSwUJRiCBN-OA.png)
 
 BTC/USDT SELL trade interval distribution (1 bar is 1 ms) — our server time, μs
 
 **Trade size**. On exchanges with a high share of retail flow, trade sizes are usually dominated by integer numbers (like 1, 300 or 5000) or tenth of an integer (0.1 or 0.9) because it is easier for people to type 0.1 than 0.98237346. However, that is not what we see on BW.
 
-![](images/blog/wash-trade-JfPauECU_ebiApsm4p9TVw.png)
+![]({{ site.baseurl }}/images/blog/wash-trade-JfPauECU_ebiApsm4p9TVw.png)
 
 ETH/USDT trade sizes distribution — mode is 0.2069 ETH
 
