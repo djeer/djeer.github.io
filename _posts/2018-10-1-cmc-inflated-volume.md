@@ -4,7 +4,6 @@ title: CoinMarketCap begets inflated volumes
 ---
 
 A bit of theory
-===============
 
 A trading volume is the aggregate of trade amounts while a trade amount is a quantity (size) multiplied by price. Imagine, there is a stock exchange where there are only 2 participants A and B. When one buys 10 AAPL @ $200, the trade amount is $2,000. At the end of the trading session, each of the traders claims that this participant’s trading volume is $2000. Formally speaking, this is true. However, to avoid double counting, the exchange will report the daily trading volume of $2000 (not of $4000).
 
