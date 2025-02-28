@@ -113,5 +113,7 @@ Associate's degree, Software Engineer *2010-2012*
 - **Top languages:** Golang, Python, JavaScript
 - **Infra:** Terraform, Docker, Google Cloud Platform, AWS, Azure, CI/CD
 - **Storage:** PostgreSQL, Elasticsearch, Redis, ClickHouse, Firestore
-- **Queues:** NATS, RabbitMQ, GCP Pub/Sub
+- **Queues:** NATS, RabbitMQ, GCP Pub/Sub, Amazon SQS/SNS
 - **AI:** OpenAI, LLM, RAG, embeddings, local models
+- **Protocols:**: FIX, gRPC, Websockets
+- **Monitoring:** Grafana, Prometheus, OpenTelemetry
