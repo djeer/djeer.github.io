@@ -4,15 +4,24 @@ title: CV
 permalink: /cv/
 ---
 
-Software Engineer specializing in AI, Cloud Infrastructure, and Fintech
+## Contact information
 
-## Skills Summary
+- Email: [cv@djer.dev](mailto:cv@djer.dev)
+- Phone +357 95 538404 (UTC+2)
+- Telegram: [@djeer](http://t.me/djeer)
 
-- **9 years:** Golang, Python, Docker, PostgreSQL, Elastic 🧑‍💻
-- **5 years:** Terraform, SRE 🧑‍🔧
-- **4 years:** LLMs, RAG 👨‍🔬
+## Professional Summary
 
-## Work Experience
+I'm a passionate software engineer with background in start-ups and fintech companies.
+
+I have experience being a technical leader, with deep expertise in the following areas:
+
+- scaling up from MVP stage to mature products
+- optimizing IOPS and latency in a trading systems
+- implementing CI/CD practices and E2E tests culture
+- managing a team, planning a work, hiring
+
+## Professional Experience
 
 ### Software Engineer, Co-Founder
 **SerenityGPT**  
@@ -99,16 +108,16 @@ Software Engineer specializing in AI, Cloud Infrastructure, and Fintech
 
 ## Education
 
-### Kuban State University of Technology (KubSUT)
-**Bachelor's degree, Information Security**  
-*Sep 2012 - Jul 2016*
+**KubSUT**
 
-### Institute of Modern Technologies and Economy
-**Associate's degree, Software Engineer**  
-*Sep 2010 - Jun 2012*
+Bachelor's degree, Information Security *2012-2016*
 
-## Contact
+**ISTEK**
 
-- Telegram: djeer
-- Email: [hey@thalassa.dev](mailto:hey@thalassa.dev) 
-- Phone: +357 95 538404
+Associate's degree, Software Engineer *2010-2012*
+
+## Keywords
+
+- **Languages:** Golang, Python, JavaScript
+- **Infra:** Terraform, Docker, GCP, AWS, Azure, CI/CD
+- **AI:** OpenAI, LLM, RAG, embeddings, local models
