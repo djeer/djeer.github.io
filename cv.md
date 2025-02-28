@@ -1,7 +1,7 @@
 ---
 layout: page
-title: CV
-permalink: /cv/
+title: Dmitrii Jerlitsyn CV
+permalink: /
 ---
 
 ## Contact information
