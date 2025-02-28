@@ -110,7 +110,7 @@ Associate's degree, Software Engineer *2010-2012*
 
 ## Keywords
 
-- **Top languages:** Golang, Python, JavaScript
+- **Top languages:** Golang, Python, JavaScript, some C++ and Rust
 - **Infra:** Terraform, Docker, Google Cloud Platform, AWS, Azure, CI/CD
 - **Storage:** PostgreSQL, Elasticsearch, Redis, ClickHouse, Firestore
 - **Queues:** NATS, RabbitMQ, GCP Pub/Sub, Amazon SQS/SNS
