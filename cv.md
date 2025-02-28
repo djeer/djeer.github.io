@@ -7,7 +7,7 @@ permalink: /
 ## Contact information
 
 - Email: [cv@djer.dev](mailto:cv@djer.dev)
-- Phone +357 95 538404 (UTC+2)
+- Phone +357 95 538404
 - Telegram: [@djeer](http://t.me/djeer)
 
 ## Professional Summary
@@ -26,7 +26,7 @@ I have experience being a technical leader, with deep expertise in the following
 ### Software Engineer, Co-Founder
 **SerenityGPT**  
 *Apr 2023 - Jan 2025 (1y 9m)*  
-*Artificial Intelligence, Docker, JavaScript, Python, Terraform, Golang*
+*Artificial Intelligence, Golang, Docker, JavaScript, Python, Terraform*
 
 - Early stage startup delivering enterprise search with Generative AI where you own your data - with local or hybrid cloud processing
 - Developed MVP that was successfully demoed to customers got them to sign up for a paid trial
@@ -36,7 +36,7 @@ I have experience being a technical leader, with deep expertise in the following
 ### Founding Engineer
 **Cordless**  
 *Oct 2021 - Sep 2024 (2y 11m)*  
-*Artificial Intelligence, GCP, Python, GraphQL, Terraform, Golang*
+*Artificial Intelligence, Golang, Terraform, GCP, Python, GraphQL*
 
 - Created a midsize enterprise call centre SaaS solution focused on availability and reliability - we managed to keep 100% uptime with our event driven architecture and zero downtime deployment
 - Proposed and implemented AI features - auto tagging, keyword tracker, actionable summaries, calls clustering - that provided our customers with valuable insights and improved quality control which allowed us to gain respectable 4.6/5 rating on G2 Reviews
@@ -45,7 +45,7 @@ I have experience being a technical leader, with deep expertise in the following
 ### Software Engineer in Fintech
 **Finery Markets**  
 *Jun 2018 - Nov 2021 (3y 5m)*  
-*Fintech, SQL, Python, Grafana, Golang*
+*Fintech, Golang, SQL, Python, Grafana*
 
 - Built scalable and efficient multi-exchange market making system MVP from scratch in under 3 months (in Python) which allowed us to subscribe a big client and proceed with rewriting most intense parts in Golang
 - Developed fintech platform back-office, P&L calculation and monitoring which enabled us to swiftly react to risks
@@ -65,7 +65,7 @@ I have experience being a technical leader, with deep expertise in the following
 ### Senior Software Engineer
 **Fintech Company**  
 *Jun 2019 - Jul 2020 (1y 1m)*  
-*Fintech, AngularJS, JavaScript, Python, Node.js, C++*
+*Fintech, Python, AngularJS, JavaScript, Node.js, C++*
 
 - Developed high-load backend systems supporting tens of thousands of online users
 - Extensive experience in extending and scaling legacy systems, including C++ projects
@@ -118,6 +118,6 @@ Associate's degree, Software Engineer *2010-2012*
 
 ## Keywords
 
-- **Languages:** Golang, Python, JavaScript
+- **Top languages:** Golang, Python, JavaScript
 - **Infra:** Terraform, Docker, GCP, AWS, Azure, CI/CD
 - **AI:** OpenAI, LLM, RAG, embeddings, local models
