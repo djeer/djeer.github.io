@@ -19,35 +19,17 @@ A TCP backlog is a connection queue at the SYN stage of a three-way TCP handshak
 
 When all the workers are busy processing current requests, new connections will start waiting in the queue. The number of connections in the queue that are waiting for a socket on port 8000 can be viewed in “network statistics” or “socket statistics” commands, the Recv-Q column:
 
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="utf-8">
-        <title>title</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
-      </head>
-      <body>
-        <netstat -l -n | grep 8000>
-      </body>
-    </html>
+```
+netstat -l -n | grep 8000
+```
 
 ![]({{ site.baseurl }}/images/blog/tcp-backlog-recv-q.png)
 
 or
 
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="utf-8">
-        <title>title</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
-      </head>
-      <body>
-        <sudo ss -lt -n | grep 8000>
-      </body>
-    </html>
+```
+sudo ss -lt -n | grep 8000>
+```
 
 When the maximum queue length (by default, 128 or so) is exhausted, all new clients will receive the “connection is refused” error.
 
