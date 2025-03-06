@@ -25,10 +25,12 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 ### [SerenityGPT](https://serenitygpt.com/)
 **Software Engineer, Co-Founder**  
 *Apr 2023 - Jan 2025 (1y 9m)*  
-*Artificial Intelligence, Golang, Docker, JavaScript, Python, Terraform*
+*Artificial Intelligence, Python, JavaScript, Terraform*
 
-- Developed and demoed MVP for enterprise search with Generative AI (local/hybrid cloud), securing paid customer trials
-- Managed frontend and backend teams to deliver new features and integrations after successful customer onboarding
+- Launched an early-stage startup offering enterprise search solutions powered by Generative AI, allowing customers to maintain full ownership of their data through local or hybrid cloud processing
+- Independently developed the MVP using Python & React successfully attracting customers to sign up for paid trials and onboard
+- Designed and implemented an agent quality assessment infrastructure, leading to contract closures with trial customers by demonstrating over 86% accuracy in initial responses
+- Managed both frontend and backend contractors during later stages of development
 
 ### [Cordless](https://uk.linkedin.com/company/cordless)
 **Founding Engineer**  
@@ -36,7 +38,7 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 *Artificial Intelligence, Golang, Terraform, GCP, Python, GraphQL*
 
 - Built enterprise call center SaaS with 100% uptime through event-driven architecture and zero-downtime deployment
-- Implemented AI features (auto-tagging, summaries, clustering) that drove customer satisfaction to 4.6/5 on G2 Reviews
+- Implemented AI features (auto-tagging, summaries, clustering) that drove customer satisfaction to 4.6/5 on G2 Reviews (better than Aircall and Skype)
 - Established CI/CD infrastructure with comprehensive testing, enabling immediate production deployment via Terraform
 
 ### [Finchtrade](https://finchtrade.com/)
@@ -69,7 +71,7 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 ### Scrutiny Startup
 **Co-founder**  
 *Jan 2018 - Jul 2018 (6m)*  
-*Python, CUDA*
+*Python, CUDA, numpy*
 
 - Co-founded and led an HFT startup focused on cryptocurrency cross-exchange arbitrage
 - Developed algorithms analyzing market data from seven exchanges to identify multi-step arbitrage routes
@@ -78,7 +80,7 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 ### Safe Communications
 **Lead Backend Developer**  
 *Dec 2016 - Feb 2018 (1y 2m)*  
-*Telecommunications, Python, Postgres, Golang*
+*Python, Postgres, Golang, TypeScript*
 
 - Developed IoT Management Platform for B2C and B2B sectors (GPS trackers, iOS MDM, mobile apps)
 - Started on MVP stage, led a team of three backend engineers on later stages
@@ -115,5 +117,5 @@ Associate's degree, Software Engineer *2010-2012*
 - **Storage:** PostgreSQL, Elasticsearch, Redis, ClickHouse, Firestore
 - **Queues:** NATS, RabbitMQ, GCP Pub/Sub, Amazon SQS/SNS
 - **AI:** OpenAI, LLM, RAG, embeddings, local models
-- **Protocols:**: FIX, gRPC, Websockets
+- **Protocols:**: FIX, gRPC, GraphQL, GraphQL, Websockets
 - **Monitoring:** Grafana, Prometheus, OpenTelemetry
