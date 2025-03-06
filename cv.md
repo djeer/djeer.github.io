@@ -25,7 +25,7 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 ### [SerenityGPT](https://serenitygpt.com/)
 **Software Engineer, Co-Founder**  
 *Apr 2023 - Jan 2025 (1y 9m)*  
-*Artificial Intelligence, Python, JavaScript, Terraform*
+*Artificial Intelligence, Python, Django, JavaScript, Terraform*
 
 - Launched an early-stage startup offering enterprise search solutions powered by Generative AI, allowing customers to maintain full ownership of their data through local or hybrid cloud processing
 - Independently developed the MVP using Python & React successfully attracting customers to sign up for paid trials and onboard
@@ -45,7 +45,7 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 **Software Engineer in Fintech**  
 *Jun 2018 - Jun 2019* and *Jul 2020 - Nov 2021* (2y 4m)
 
-*Golang, SQL, Python, Grafana*
+*Golang, SQL, Python, FastAPI, Grafana*
 
 - Built scalable multi-exchange market making system MVP from scratch in under 3 months, enabling us to secure a major client
 - Developed trading platform back-office, P&L calculation, monitoring, and equity re-balance systems for 24/7 operations
@@ -63,7 +63,7 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 ### [IBITCY](https://ibitcy.com)
 **Senior Software Engineer**  
 *Jun 2019 - Jul 2020 (1y 1m)*  
-*Python, AngularJS, JavaScript, Node.js, C++*
+*Python, Flask, AngularJS, JavaScript, Node.js, C++*
 
 - Developed high-load backend systems supporting tens of thousands of online users
 - Specialized in extending and scaling legacy systems, including C++ projects
@@ -79,7 +79,7 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 ### Safe Communications
 **Lead Backend Developer**  
 *Dec 2016 - Feb 2018 (1y 2m)*  
-*Python, Postgres, Golang, TypeScript*
+*Python, Django, Postgres, TypeScript, Golang*
 
 - Developed IoT Management Platform for B2C and B2B sectors (GPS trackers, iOS MDM, mobile apps)
 - Started on MVP stage, led a team of three backend engineers on later stages
@@ -101,11 +101,11 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 
 ## Education
 
-**KubSUT**
+**[Kuban State University of Technology](https://kubstu.ru/en)**
 
 Bachelor's degree, Information Security *2012-2016*
 
-**ISTEK**
+**[ISTEK](https://www.linkedin.com/school/институт-современных-технологий-и-экономики-истэк-/people/)**
 
 Associate's degree, Software Engineer *2010-2012*
 
