@@ -73,8 +73,7 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 *Jan 2018 - Jul 2018 (6m)*  
 *Python, CUDA, numpy*
 
-- Co-founded a high-frequency trading (HFT) startup specializing in cryptocurrency arbitrage, leveraging a cross-exchange graph for calculations
-- Optimized the core calculation engine, enhancing performance from 80k to 3M trading routes, with a benchmark execution time of 0.1 seconds, through the development of more efficient algorithms
+- Optimized the calculation engine, enhancing performance from 80k to 3M trading routes, with a benchmark execution time of 0.1 seconds, through the development of more efficient algorithms
 - Reverse engineered frontend websocket APIs where necessary to increase performance
 
 ### Safe Communications
