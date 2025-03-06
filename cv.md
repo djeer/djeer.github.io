@@ -60,7 +60,7 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 - Extended internal framework for code generation from Python into timeseries database query graphs
 - Created custom tooling for in-house timeseries database, improving team efficiency
 
-### [IBITCY](https://ibitcy.com)
+### IBITCY
 **Senior Software Engineer**  
 *Jun 2019 - Jul 2020 (1y 1m)*  
 *Python, Flask, AngularJS, JavaScript, Node.js, C++*
@@ -102,12 +102,13 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 ## Education
 
 **[Kuban State University of Technology](https://kubstu.ru/en)**
-
-Bachelor's degree, Information Security *2012-2016*
+- BSc, Information Security *2012-2016*
+- Multidisciplinary InfoSec: Programming, Hacking, Cryptography, Compliance, Electrotechnics
 
 **[ISTEK](https://www.linkedin.com/school/институт-современных-технологий-и-экономики-истэк-/people/)**
 
-Associate's degree, Software Engineer *2010-2012*
+- ASc, Software Engineer *2009-2012*
+- Software Engineering, Algorithms, Networks
 
 ## Keywords
 
