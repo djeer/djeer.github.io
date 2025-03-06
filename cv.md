@@ -84,7 +84,7 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 - Developed IoT Management Platform for B2C and B2B sectors (GPS trackers, iOS MDM, mobile apps)
 - Started on MVP stage, led a team of three backend engineers on later stages
 
-### [MTS Group](https://mts-digital.ru/)
+### [MTS Group](https://en.wikipedia.org/wiki/MTS_(telecommunications))
 **Billing Engineer & Analyst**  
 *Jan 2016 - Dec 2016 (11m)*  
 *Telecommunications, Python, Oracle*
@@ -92,7 +92,7 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 - Managed API integrations with third-party systems including payment providers
 - Conducted weekly CCI data analysis using Python and Oracle PL/SQL
 
-### [Geology Research Company](https://izyskatel23.ru/)
+### [Geology Research Company](https://izyskatel23-ru.translate.goog/?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)
 **Sysadmin**  
 *Aug 2010 - Jan 2016 (5y 5m)*
 
