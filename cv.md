@@ -54,9 +54,9 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 ### [OneMarketData](https://www.onetick.com/)
 **Market Surveillance Solutions Engineer**  
 *Aug 2020 - Jul 2021 (11m)*  
-*Python, C++, Pandas*
+*Python, C++, Pandas, Code generation*
 
-- Developed market abuse monitoring algorithms for major clients, including one of the largest US exchanges
+- Developed market abuse monitoring algorithms (insider trading, pinging) for clients, including one of the largest US exchanges
 - Extended internal framework for code generation from Python into timeseries database query graphs
 - Created custom tooling for in-house timeseries database, improving team efficiency
 
