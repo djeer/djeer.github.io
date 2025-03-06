@@ -34,7 +34,7 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 
 ### [Cordless](https://uk.linkedin.com/company/cordless)
 **Founding Engineer**  
-*Oct 2021 - Sep 2024 (2y 11m)*  
+*Oct 2021 - Sep 2024 (3y)*  
 *Artificial Intelligence, Golang, Terraform, GCP, Python, GraphQL*
 
 - Built enterprise call center SaaS with 100% uptime through event-driven architecture and zero-downtime deployment
@@ -43,7 +43,7 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 
 ### [Finchtrade](https://finchtrade.com/)
 **Software Engineer in Fintech**  
-*Jun 2018 - Jun 2019* and *Jul 2020 - Nov 2021* (2y 4m)
+*Jun 2018 - Jun 2019* and *Jul 2020 - Nov 2021* (2y 5m)
 
 *Golang, SQL, Python, FastAPI, Grafana*
 
@@ -53,7 +53,7 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 
 ### [OneMarketData](https://www.onetick.com/)
 **Market Surveillance Solutions Engineer**  
-*Aug 2020 - Jul 2021 (11m)*  
+*Aug 2020 - Jul 2021 (1y)*  
 *Python, C++, Pandas, Code generation*
 
 - Developed market abuse monitoring algorithms (insider trading, pinging) for clients, including one of the largest US exchanges
@@ -86,7 +86,7 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 
 ### [MTS Group](https://en.wikipedia.org/wiki/MTS_(telecommunications))
 **Billing Engineer & Analyst**  
-*Jan 2016 - Dec 2016 (11m)*  
+*Jan 2016 - Dec 2016 (1y)*  
 *Telecommunications, Python, Oracle*
 
 - Managed API integrations with third-party systems including payment providers
