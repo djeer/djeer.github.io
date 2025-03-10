@@ -27,7 +27,7 @@ As a product-oriented software engineer, I have consistently contributed in tech
 *Apr 2023 - Jan 2025 (1y 9m)*  
 *Artificial Intelligence, Python, Django, JavaScript, Terraform*
 
-Launched an AI-driven enterprise search startup, focusing on data ownership and local processing
+Launched an AI semantic search startup, focusing on data ownership and local processing
 - Developed MVP with Python and React, attracting paid trial customers
 - Hired and managed frontend and backend contractors
 - Designed evaluation infrastructure, achieving 86% response accuracy
