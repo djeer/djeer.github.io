@@ -30,7 +30,7 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 Launched an AI-driven enterprise search startup, focusing on data ownership and local processing
 - Developed MVP with Python and React, attracting paid trial customers
 - Hired and managed frontend and backend contractors
-- Designed agent quality evaluation infrastructure, achieving 86% response accuracy
+- Designed evaluation infrastructure, achieving 86% response accuracy
 - Improved search performance using results reranking and embeddings benchmarks
 
 ### [Cordless](https://uk.linkedin.com/company/cordless)
