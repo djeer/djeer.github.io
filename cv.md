@@ -27,52 +27,54 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 *Apr 2023 - Jan 2025 (1y 9m)*  
 *Artificial Intelligence, Python, Django, JavaScript, Terraform*
 
-- Launched an early-stage startup offering enterprise search solutions powered by Generative AI, allowing customers to maintain full ownership of their data through local or hybrid cloud processing
-- Independently developed the MVP using Python & React successfully attracting customers to sign up for paid trials and onboard
-- Designed and implemented an agent quality assessment infrastructure, leading to contract closures with trial customers by demonstrating over 86% accuracy in initial responses
-- Managed both frontend and backend contractors during later stages of development
+Launched an AI-driven enterprise search startup, focusing on data ownership and local processing
+- Developed MVP with Python and React, attracting paid trial customers
+- Hired and managed frontend and backend contractors
+- Designed agent quality assessment infrastructure, achieving 86% response accuracy
+- Improved search performance using results reranking and embeddings benchmarks
 
 ### [Cordless](https://uk.linkedin.com/company/cordless)
 **Founding Engineer**  
 *Oct 2021 - Sep 2024 (3y)*  
 *Artificial Intelligence, Golang, Terraform, GCP, Python, GraphQL*
 
-- Built enterprise call center SaaS with 100% uptime through event-driven architecture and zero-downtime deployment
-- Implemented AI features (auto-tagging, summaries, clustering) that drove customer satisfaction to 4.6/5 on G2 Reviews (better than Aircall and Skype)
-- Established CI/CD infrastructure with comprehensive testing, enabling immediate production deployment via Terraform
+Built a call center SaaS with event-driven architecture ensuring 100% uptime
+- Joined product on early staged, developed serverless Golang services
+- Implemented AI CSAT features, boosting our rating to 4.6/5 on G2 Reviews (better than Aircall and Skype)
+- Established CI/CD infrastructure and E2E tests for seamless deployments
 
 ### [Finchtrade](https://finchtrade.com/)
 **Software Engineer in Fintech**  
 *Jun 2018 - Jun 2019* and *Jul 2020 - Nov 2021* (2y 5m)
 
-*Golang, SQL, Python, FastAPI, Grafana*
-
-- Built scalable multi-exchange market making system MVP from scratch in under 3 months, enabling us to secure a major client
-- Developed trading platform back-office, P&L calculation, monitoring, and equity re-balance systems for 24/7 operations
-- Created trading robots control panel for on-the-fly adjustments, managing frontend contractors during development
+Developed scalable trading systems and back-office solution for 24/7 operations
+- Created market making system MVP in 3 months, securing major client
+- Developed trading platform back-office and monitoring systems
 
 ### [OneMarketData](https://www.onetick.com/)
 **Market Surveillance Solutions Engineer**  
 *Aug 2020 - Jul 2021 (1y)*  
 *Python, C++, Pandas, Code generation*
 
-- Developed market abuse monitoring algorithms (insider trading, pinging) for clients, including one of the largest US exchanges
-- Extended internal framework for code generation from Python into timeseries database query graphs
-- Created custom tooling for in-house timeseries database, improving team efficiency
+Engineered market abuse monitoring algorithms for major US clients
+- Extended framework for code generation into timeseries database queries
+- Improved team efficiency with custom tooling for in-house database
 
 ### IBITCY
 **Senior Software Engineer**  
 *Jun 2019 - Jul 2020 (1y 1m)*  
 *Python, Flask, AngularJS, JavaScript, Node.js, C++*
 
-- Developed high-load backend systems supporting tens of thousands of online users
-- Specialized in extending and scaling legacy systems, including C++ projects
+Specialized in high-load backend systems and legacy system scaling
+- Supported ~20k online users on Node.js and Python
+- Extended and scaled legacy C++ project
 
 ### Scrutiny Startup
 **Co-founder**  
 *Jan 2018 - Jul 2018 (6m)*  
 *Python, CUDA, numpy*
 
+Launched arbitrage trading startup
 - Optimized the calculation engine, enhancing performance from 80k to 3M trading routes, with a benchmark execution time of 0.1 seconds, through the development of more efficient algorithms
 - Reverse engineered frontend websocket APIs where necessary to increase performance
 
@@ -81,23 +83,26 @@ As a product-oriented software engineer, I've had the opportunity to contribute 
 *Dec 2016 - Feb 2018 (1y 2m)*  
 *Python, Django, Postgres, TypeScript, Golang*
 
-- Developed IoT Management Platform for B2C and B2B sectors (GPS trackers, iOS MDM, mobile apps)
-- Started on MVP stage, led a team of three backend engineers on later stages
+Led development of IoT Management Platform from MVP to production
+- Managed a team of three backend engineers
+- Developed solutions for GPS trackers and mobile apps
 
 ### [MTS Group](https://en.wikipedia.org/wiki/MTS_(telecommunications))
 **Billing Engineer & Analyst**  
 *Jan 2016 - Dec 2016 (1y)*  
 *Telecommunications, Python, Oracle*
 
-- Managed API integrations with third-party systems including payment providers
-- Conducted weekly CCI data analysis using Python and Oracle PL/SQL
+Managed API integrations and conducted data analysis for billing systems
+- Integrated third-party payment providers
+- Analyzed CCI data using Python and Oracle PL/SQL
 
 ### [Geology Research Company](https://izyskatel23-ru.translate.goog/?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp)
 **Sysadmin**  
 *Aug 2010 - Jan 2016 (5y 5m)*
 
-- Supported legacy software and managed Active Directory domain with zero incidents
-- Designed and developed the company website, bringing in several new clients
+Managed office IT infrastructure
+- Maintained Active Directory domain with zero incidents
+- Developed company website, attracting new clients
 
 ## Education
 
