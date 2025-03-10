@@ -45,7 +45,7 @@ Built a call center SaaS with event-driven architecture ensuring 100% uptime
 
 ### [Finchtrade](https://finchtrade.com/)
 **Software Engineer in Fintech**  
-*Jun 2018 - Jun 2019* and *Jul 2020 - Nov 2021* (2y 5m)
+*Jun 2018 - Jun 2019* and *Jul 2020 - Nov 2021* and *Sep 2024 - Apr 2025*
 
 Developed scalable trading systems and back-office solution for 24/7 operations
 - Created market making system MVP in 3 months, securing major client
