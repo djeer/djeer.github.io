@@ -10,6 +10,7 @@ permalink: /
 - Phone +357 95 538404
 - Telegram: [@djeer](http://t.me/djeer)
 - Linkedin: [link](https://www.linkedin.com/in/dmitry-jerlitsyn-b58428147/)
+- Location: Limassol, Cyprus (EU)
 
 ## Professional Summary
 
