@@ -39,7 +39,7 @@ Launched an AI-driven enterprise search startup, focusing on data ownership and 
 *Artificial Intelligence, Golang, Terraform, GCP, Python, GraphQL*
 
 Built a call center SaaS with event-driven architecture ensuring 100% uptime
-- Joined product on early staged, developed serverless Golang services
+- Joined product on early stage, developed serverless Golang services
 - Implemented AI CSAT features, boosting our rating to 4.6/5 on G2 Reviews (better than Aircall and Skype)
 - Established CI/CD infrastructure and E2E tests for seamless deployments
 
@@ -57,6 +57,7 @@ Developed scalable trading systems and back-office solution for 24/7 operations
 *Python, C++, Pandas, Code generation*
 
 Engineered market abuse monitoring algorithms for major US clients
+- Developed and optimised variants of insider trading detection and pinging detection
 - Extended framework for code generation into timeseries database queries
 - Improved team efficiency with custom tooling for in-house database
 
