@@ -23,9 +23,19 @@ As a product-oriented software engineer, I have consistently contributed in tech
 
 ## Professional Experience
 
+### [Cordless](https://uk.linkedin.com/company/cordless)
+**Software Engineer**  
+*Oct 2021 - Present (3y 6m)*  
+*Artificial Intelligence, Golang, Terraform, GCP, Python, GraphQL*
+
+Built a call center SaaS with event-driven architecture ensuring 100% uptime
+- Joined product on early stage, developed serverless Golang services
+- Implemented AI CSAT features, boosting our rating to 4.6/5 on G2 Reviews (better than Aircall and Skype)
+- Established CI/CD infrastructure and E2E tests for seamless deployments
+
 ### [SerenityGPT](https://serenitygpt.com/)
-**Software Engineer, Co-Founder**  
-*Apr 2023 - Jan 2025 (1y 9m)*  
+**Software Engineer, Co-Founder (part-time)**  
+*Apr 2023 - Mar 2024 (1y)*  
 *Artificial Intelligence, Python, Django, JavaScript, Terraform*
 
 Launched an AI semantic search startup, focusing on data ownership and local processing
@@ -34,19 +44,9 @@ Launched an AI semantic search startup, focusing on data ownership and local pro
 - Designed evaluation infrastructure, achieving 86% response accuracy
 - Improved search performance using results reranking and embeddings benchmarks
 
-### [Cordless](https://uk.linkedin.com/company/cordless)
-**Founding Engineer**  
-*Oct 2021 - Sep 2024 (3y)*  
-*Artificial Intelligence, Golang, Terraform, GCP, Python, GraphQL*
-
-Built a call center SaaS with event-driven architecture ensuring 100% uptime
-- Joined product on early stage, developed serverless Golang services
-- Implemented AI CSAT features, boosting our rating to 4.6/5 on G2 Reviews (better than Aircall and Skype)
-- Established CI/CD infrastructure and E2E tests for seamless deployments
-
 ### [Finchtrade](https://finchtrade.com/)
 **Software Engineer in Fintech**  
-*Jun 2018 - Jun 2019* and *Jul 2020 - Nov 2021* and *Sep 2024 - Apr 2025*
+*Jun 2018 - Jun 2019* and *Jul 2021 - Nov 2021*
 
 Developed scalable trading systems and back-office solution for 24/7 operations
 - Created market making system MVP in 3 months, securing major client
@@ -72,7 +72,7 @@ Specialized in high-load backend systems and legacy system scaling
 - Extended and scaled legacy C++ project
 
 ### Scrutiny Startup
-**Co-founder**  
+**Software Engineer, Co-founder**  
 *Jan 2018 - Jul 2018 (6m)*  
 *Python, CUDA, numpy*
 
