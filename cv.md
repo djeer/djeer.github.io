@@ -26,7 +26,7 @@ As a product-oriented software engineer, I have consistently contributed in tech
 ### [Cordless](https://uk.linkedin.com/company/cordless)
 **Software Engineer**  
 *Oct 2021 - Present (3y 6m)*  
-*Artificial Intelligence, Golang, Terraform, GCP, Python, GraphQL*
+*AI, Golang, Terraform, GCP, Python, GraphQL*
 
 Built a call center SaaS with event-driven architecture ensuring 100% uptime
 - Joined product on early stage, developed serverless Golang services
@@ -36,7 +36,7 @@ Built a call center SaaS with event-driven architecture ensuring 100% uptime
 ### [SerenityGPT](https://serenitygpt.com/)
 **Software Engineer, Co-Founder (part-time)**  
 *Apr 2023 - Mar 2024 (1y)*  
-*Artificial Intelligence, Python, Django, JavaScript, Terraform*
+*AI, Python, Django, JavaScript, React, Terraform*
 
 Launched an AI semantic search startup, focusing on data ownership and local processing
 - Developed MVP with Python and React, attracting paid trial customers
@@ -46,6 +46,7 @@ Launched an AI semantic search startup, focusing on data ownership and local pro
 
 ### [Finchtrade](https://finchtrade.com/)
 **Software Engineer in Fintech**  
+*Golang, NATS, Postgres, Python*
 *Jun 2018 - Jun 2019* and *Jul 2021 - Nov 2021*
 
 Developed scalable trading systems and back-office solution for 24/7 operations
@@ -92,7 +93,7 @@ Led development of IoT Management Platform from MVP to production
 ### [MTS Group](https://en.wikipedia.org/wiki/MTS_(telecommunications))
 **Billing Engineer & Analyst**  
 *Jan 2016 - Dec 2016 (1y)*  
-*Telecommunications, Python, Oracle*
+*Python, Oracle*
 
 Managed API integrations and conducted data analysis for billing systems
 - Integrated third-party payment providers
