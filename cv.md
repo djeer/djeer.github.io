@@ -22,19 +22,12 @@ As a product-oriented software engineer, I have consistently contributed in tech
 
 ## Professional Experience
 
-### [Finchtrade](https://finchtrade.com/)
-**Software Engineer in Fintech**  
-*Dec 2024 - Now*  
-*Golang, NATS, Postgres, Python*
-
-Project work, distributed trading system latency optimization
-
 ### [Zing AI Coach](https://www.zing.coach/)
 **Backend Team Lead**  
-*Aug 2024 - Nov 2024 ~4m*  
+*Aug 2024 - Now*  
 *AI, Python, Golang*
 
-Led a team of 8 backend engineers
+Hands-on leader
 - Solved massive issues with scaling/reliability where marketing team was limited by backend team previously
 - Greatly improved backend team product involvement by splitting service team and bringing them closer to product squads
 
