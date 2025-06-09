@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+I'm a software engineer with extensive experience in AI, Cloud Infrastructure, and Fintech. Check out my [CV](/cv/) for my professional experience.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+telegram: djeer
+
+email: [hey@thalassa.dev](mailto:hey@thalassa.dev)
